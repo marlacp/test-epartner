@@ -1,1 +1,53 @@
+@font-face {
+    font-family: 'DidactGothic';
+    src: local('DidactGothic'),
+      url('../Fonts/DidactGothic-Regular.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'GothicA1';
+    src: local('GothicA1'),
+      url('../Fonts/GothicA1-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monserrat-Bold';
+    src: local('Monserrat-Bold'),
+      url('../Fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monserrat-Regular';
+    src: local('Monserrat-Regular'),
+      url('../Fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MarcellusSC';
+    src: local('MarcellusSC'),
+      url('../Fonts/MarcellusSC-Regular.ttf') format('truetype');
+}
+.container{
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
+
+/* ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} */
+
+p{
+    padding: 0;
+    margin: 0;
+}

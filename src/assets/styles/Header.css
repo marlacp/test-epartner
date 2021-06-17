@@ -1,3 +1,261 @@
-.cont-header{
-    background-color: red;
+.search.icon {
+    color: white;
+    /* position: absolute; */
+    margin-top: 11px;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    border: solid 3px currentColor;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+}
+
+.search.icon:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    height: 10px;
+    width: 3px;
+    background-color: currentColor;
+}
+
+.box{
+    /* margin: 0px; */
+    /* padding: 2px; */
+    background-color: black;
+    margin-left: -46px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-right: 14px;
+    margin-right: 55px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.menu.icon {
+    color: #0170E0;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 25px;
+    height: 5px;
+    background-color: currentColor;
+}
+  
+  .menu.icon:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 25px;
+    height: 5px;
+    background-color: currentColor;
+  }
+  
+  .menu.icon:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 25px;
+    height: 5px;
+    background-color: currentColor;
+  }
+  
+header{
+    background-color: #F4F4F4;
+}
+
+.cont-search{
+    display: flex;
+}
+
+.search-form{
+    display: flex;
+    padding-top: 17px;
+    padding-bottom: 22px;
+    margin-left: 34px;
+}
+
+.searchInput{
+    width: 640px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    border: 2px solid #212121;
+    font-family: 'Monserrat-Regular';
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.searchInput::placeholder {
+    color: #999999;
+  }
+/******************************************/
+
+.pedidos{
+    font-family: 'MarcellusSC';
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 12px;
+    color: #0370E0;
+    font-weight: bold;
+}
+
+
+.aliado{
+    color: #2C2C2C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ingresa{
+    color: #00579A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.carrito{
+    color: #2C2C2C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.group-car{
+    display: grid;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    grid-template: 8px / 118px 106px 52px 71px;
+    grid-template-areas:"MisPedidos Saludo1 ImgCar Car"
+                        "MisPedidos Saludo2 ImgCar Car";
+    grid-gap: 2px;
+
+}
+
+.MisPedidos{
+    grid-area: MisPedidos;
+}
+
+.Saludo1{
+    grid-area: Saludo1;
+    margin-top: -12px;
+}
+
+.Saludo2{
+    grid-area: Saludo2;
+    margin-left: 6px;
+    margin-top: -12px;
+}
+
+.ImgCar{
+    grid-area: ImgCar;
+    margin-top: -18px;
+}
+
+.Car{
+    grid-area: Car;
+}
+
+.addcarImg{
+    width: 50px;
+}
+/********************************************/
+
+/* .cont-hamb{
+    display: flex;
+}
+
+.nav-cont ol{
+    display: flex;
+    height: inherit;
+}
+
+.nav-cont a img{
+    display: flex;
+}
+.nav-cont a {
+    display: flex;
+    align-items: left;
+    height: inherit;
+    text-decoration: none;
+    padding: 28px 17px;
+} */
+
+a{
+    text-decoration: none;
+}
+
+.cont-hamb{
+    display: grid;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    grid-template: 1px / 218px 34px 116px 42px 190px 40px 224px 56px;
+    grid-template-areas:"hamb sillaImg movilidadLink corazonImg careLink profsaludImg linkProf lavadoImg linktapabocas";
+    padding-bottom: 50px;
+    font-family: 'Monserrat-Regular';
+    font-size: 12px;
+    font-weight: 100;
+
+}
+
+.hamb{
+    grid-area: hamb;
+}
+
+.sillaImg{
+    grid-area: sillaImg;
+    margin-top: -14px;
+}
+
+.movilidadLink{
+    grid-area: movilidadLink;
+}
+
+.corazonImg{
+    grid-area: corazonImg;
+    margin-top: -5px;
+}
+
+.careLink{
+    grid-area: careLink;
+}
+
+.profsaludImg{
+    grid-area: profsaludImg;
+    margin-top: -5px;
+}
+
+.linkProf{
+    grid-area: linkProf;
+}
+
+.lavadoImg{
+    grid-area: lavadoImg;
+    margin-top: -14px;
+}
+
+.linktapabocas{
+    grid-area: linktapabocas;
+}
+
+.mov {
+    color: #2D2D2D;
+}
+
+.careHome{
+    color: #2D2D2D;
+}
+
+.profsalud{
+    color: #2D2D2D;
+}
+
+.tapabocasd{
+    color: #2D2D2D;
 }
