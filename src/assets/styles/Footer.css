@@ -1,3 +1,81 @@
 /* .cont-footer{
     background-color: salmon;
 } */
+
+.informacion{
+    display: flex;
+    height: inherit;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 56px;
+    font-family: 'DidactGothic';
+
+}
+
+.informacion ol{
+    height: inherit;
+}
+
+.informacion a{
+    /* display: flex; */
+    align-items: left;
+    height: inherit;
+    text-decoration: none;
+    /* padding: 13px 17px; */
+
+}
+
+.colorFooter{
+    background-color: #212121;
+}
+
+.titleInfo{
+    color: #DDED00;
+    font-size: 17px;
+}
+
+.a-info{
+    color: #E9EBEB;
+}
+
+.boxInfo{
+    padding-bottom: 70px;
+}
+
+.boxInfo2{
+    padding-bottom: 50px;
+}
+
+.space{
+    padding-bottom: 8px;
+}
+
+.servicioCliente{
+    margin-left: -23px;
+}
+
+.inputFooter{
+    width: 345px;
+    height: 53px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    /* border: 2px solid #212121; */
+    /* font-family: 'Monserrat-Regular'; */
+    /* font-size: 14px; */
+    padding-left: 15px;
+}
+
+.boxInfo3{
+    padding-bottom: 23px;
+}
+
+.condiciones{
+    padding-top: 7px;
+}
+
+.metodoPago{
+    padding-top: 30px;
+}
+
+.imgMetPago{
+    width: 345px;
+}
